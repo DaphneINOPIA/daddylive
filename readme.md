@@ -1,4 +1,4 @@
-## huggingface
+## Huggingface
 1. Sign up to [https://huggingface.co/](https://huggingface.co/).
 2. In the top‑right corner, click the ➕ icon → **New Space**.
 3. **Name**: enter `dproxy` (or any name you prefer).
@@ -11,6 +11,17 @@
    Events playlist is accessible via: **https://username-dproxy.hf.space/playlist/events**. (Refresh playlist from your iptv player to update)
 10. Enjoy! </br>
 Note: To update the proxy for new changes, click on **Settings** then click on **Factory rebuild**.
+
+## Vercel
+1. Sign up to https://vercel.com/signup and select Hobby then click **Deploy** button. <br><br>
+<a href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fpigzillaaaaa%2Fdaddylive" target="_blank"><img src="https://vercel.com/button" alt="Deploy with Vercel"/></a>
+2. Connect your github account to vercel, set the scope and set the repository name (eg. dproxy) then click **Create**
+3. Wait for the project to build. If you see a ":)" then you are good to go.
+4. Go to the dashboard and under **Domain**, copy the url (eg. https://dproxy-g327.vercel.app).
+5. Channels playlist is accessible via: **https://dproxy-g327.vercel.app/playlist/channels**. (Refresh playlist from your iptv player to update)</br>
+   Events playlist is accessible via: **https://dproxy-g327.vercel.app/playlist/events**. (Refresh playlist from your iptv player to update)
+6. Optional: Change the timeout(Function Max Duration) and location(Function Region) in Settings->Functions
+7. Enjoy! <br>
 
 ## docker-compose
 1. Clone the repository
